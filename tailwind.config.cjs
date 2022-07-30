@@ -6,7 +6,12 @@ module.exports = {
   theme: {
     extend: {    
       colors: {
-      'cinzaYT1' : '#202020'
+      'cinzaYT1' : '#202020',
+      'cinzaYT2' : '#181818',
+      'cinzaYT3' : '#313131',
+      'azulYT'   : '#3EA6FF',
+      'cinzaYTP' : '#121212'
+      
     },
   },
 
