@@ -25,8 +25,8 @@
     <hr class="w-full m-4 border-0.1 opacity-10">
     
     <body class="flex w-full h-full ">
-      <div class="flex-0 w-2/12">
-        <ItemMenu />
+      <div class="flex-0 w-2/12 -mt-2">
+        <ItemMenu class="" />
       </div>
 
       <div class="flex-1 bg-cinzaYT2">

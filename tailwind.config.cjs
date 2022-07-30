@@ -10,7 +10,8 @@ module.exports = {
       'cinzaYT2' : '#181818',
       'cinzaYT3' : '#313131',
       'azulYT'   : '#3EA6FF',
-      'cinzaYTP' : '#121212'
+      'cinzaYTP' : '#121212',
+      'cinzaABA' : '#383838'
       
     },
   },
