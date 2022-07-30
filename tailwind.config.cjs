@@ -11,7 +11,9 @@ module.exports = {
       'cinzaYT3' : '#313131',
       'azulYT'   : '#3EA6FF',
       'cinzaYTP' : '#121212',
-      'cinzaABA' : '#383838'
+      'cinzaABA' : '#383838',
+      'cinzaT'   : '#373737'
+      
       
     },
   },

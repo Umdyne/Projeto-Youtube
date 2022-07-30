@@ -30,7 +30,18 @@
       </div>
 
       <div class="flex-1 bg-cinzaYT2">
-        conteudo
+        <div class="bg-cinzaYT1"> 
+          <ItemTopico />
+        </div>
+        <div class="w-full"> 
+          <img src="./inputs/baner.png" class="w-full pr-3  ">
+          <p class="font-semibold text-2xl absolute top-48 ml-8">Desconto plano de estudante: Youtube Music</p>
+          <p class="font-semibold text-2xl absolute top-56 ml-8">sem anúncios e em segundo plano por menos</p>
+          <p class="font-semibold text-XL absolute bottom-72 border-2 p-2 ml-8">BAIXE AGORA</p>
+        </div>
+        <div> 
+          <CardVideo />
+        </div>
       </div>
     </body>
   </div>
@@ -43,5 +54,7 @@ import MenuIcon from "./icones/MenuIcon.vue";
 import InputSearch from "./inputs/InputSearch.vue";
 import DotsIcon from "./inputs/DotsIcon.vue";
 import ItemMenu from "./ItemMenu.vue";
+import ItemTopico from "./ItemTopico.vue";
+import CardVideo from "./CardVideo.vue";
 
 </script>
