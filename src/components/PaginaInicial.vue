@@ -1,48 +1,12 @@
 <template>
-  <div class="bg-cinzaYT1 h-screen w-screen text-white  ">
+  <div class="bg-cinzaYT1 h-full w-full text-white  ">
     <header class="flex pt-4 h-10 w-full items-center"> 
-      <div> 
-        <MenuIcon class="h-9 w-9 ml-6" />
-      </div>
-
-      <div> 
-        <img src="./images/logo-youtube.png" class="w-56 ml-5 ">
-      </div>
-
-      <div class="ml-44 w-full mr-80 pr-1 "> 
-        <InputSearch />
-      </div>
-      
-      
-      <div class="mr-5 mt-1 absolute right-0 flex ">
-        <DotsIcon class="w-6 h-10 p-1"/>
-        <div class="h-9 w-38 p-3 border border-azulYT font-semibold text-azulYT  ml-3 flex items-center ">
-        <img src="./icones/avataryoutube.png">
-        <h3>FAZER LOGIN</h3>
-      </div>
-    </div>  
+      head
     </header>
-    <hr class="w-full m-4 border-0.1 opacity-10">
+    <hr class="w-full p-4 border-0.1 opacity-10">
     
-    <body class="flex w-full h-full ">
-      <div class="flex-0 w-2/12 -mt-2">
-        <ItemMenu class="" />
-      </div>
-
-      <div class="flex-1 bg-cinzaYT2">
-        <div class="bg-cinzaYT1"> 
-          <ItemTopico />
-        </div>
-        <div class="w-full"> 
-          <img src="./inputs/baner.png" class="w-full pr-3  ">
-          <p class="font-semibold text-2xl absolute top-48 ml-8">Desconto plano de estudante: Youtube Music</p>
-          <p class="font-semibold text-2xl absolute top-56 ml-8">sem anúncios e em segundo plano por menos</p>
-          <p class="font-semibold text-XL absolute bottom-72 border-2 p-2 ml-8">BAIXE AGORA</p>
-        </div>
-        <div> 
-          <CardVideo />
-        </div>
-      </div>
+    <body class="">
+      body
     </body>
   </div>
 
@@ -50,11 +14,5 @@
 
 <script lang="ts" setup>
 
-import MenuIcon from "./icones/MenuIcon.vue";
-import InputSearch from "./inputs/InputSearch.vue";
-import DotsIcon from "./inputs/DotsIcon.vue";
-import ItemMenu from "./ItemMenu.vue";
-import ItemTopico from "./ItemTopico.vue";
-import CardVideo from "./CardVideo.vue";
 
 </script>
