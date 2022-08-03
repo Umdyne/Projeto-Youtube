@@ -4,7 +4,7 @@
             <div class="relative flex items-center  w-full">
                 <input
                     type="text"
-                    class="w-full h-9  px-2 py-0.5 bg-cinzaYTP pr-10 font-semibold "
+                    class="w-full h-9 px-2 py-0.5 bg-cinzaYTP pr-10 font-semibold "
                     placeholder="Pesquisar"/>    
                     <img src="./tecladoYT2.png" class="absolute top-2 mt-0.5 right-2 w-6">
                 
